@@ -1,8 +1,8 @@
 
 
 class Sm2KeypairModel {
-	String privateKey;
-	String publicKey;
+	String? privateKey;
+	String? publicKey;
 
 	Sm2KeypairModel({this.privateKey , this.publicKey });
 
